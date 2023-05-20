@@ -11,7 +11,7 @@ body {
   font-size: 100%;
 }
 
-.profileChnageText {
+.profileChangeText {
   display: block;
   cursor: pointer;
   text-decoration: underline;
@@ -22,16 +22,6 @@ body {
   opacity: 0;
   display: none;
   transition: opacity 1s;
-}
-
-.visible {
-  display: block;
-  opacity: 1;
-}
-
-.profile {
-  position: relative;
-  height: 5rem;
 }
 
 .profile {
@@ -46,9 +36,11 @@ body {
   z-index: 100;
 
   background-image: url('demo.png');
-  background-size: cover; /* Adjust as needed */
-  background-position: center; /* Adjust as needed */
-  background-repeat: no-repeat; /* Adjust as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  transition: background-image 0.5s, transform 1s;
 }
 
 .edit {
