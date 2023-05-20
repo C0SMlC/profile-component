@@ -1,0 +1,56 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  position: relative;
+  font-size: 100%;
+}
+
+.profileChnageText {
+  display: block;
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+
+.main {
+  opacity: 0;
+  display: none;
+  transition: opacity 1s;
+}
+
+.visible {
+  display: block;
+  opacity: 1;
+}
+
+.profile {
+  position: relative;
+  height: 5rem;
+}
+
+.profile {
+  width: 5rem;
+  height: 5rem;
+  display: block;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  cursor: pointer;
+  z-index: 100;
+
+  background-image: url('demo.png');
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+}
+
+.edit {
+  cursor: pointer;
+}
