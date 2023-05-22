@@ -35,3 +35,11 @@ profileExpander.addEventListener('click', () => {
     isVisible = false;
   }
 });
+
+function openForm() {
+  document.getElementById('editProfileForm').classList.remove('d-none');
+}
+
+function closeForm() {
+  document.getElementById('editProfileForm').classList.add('d-none');
+}
