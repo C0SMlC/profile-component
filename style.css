@@ -128,3 +128,9 @@ body {
   max-width: 90%;
   color: #fafafa;
 }
+
+@media (max-width: 33em) {
+  .internship-text {
+    font-size: 1rem;
+  }
+}
